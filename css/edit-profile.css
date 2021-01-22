@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+header{
+  position: fixed;
+  padding: 0;
+  left:0;
+  width:100%;
+  margin:0;
+  top:0;
+  left:0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  background-color: white;
+}
+
+.header1{
+  position: inline-block;
+  text-decoration: none;
+
+  padding: 10px 12px;
+  height: 100px;
+  /* width: 100vw; */
+  /* height: 134px; */
+  margin: auto;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .img{
+    margin: 0;
+  }
+
+  .status{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .note{
+    position: absolute;
+    margin-top: 10px;
+    float: right;
+  }
+
+  .header1 a {
+    float: right;
+    display: inline-block;
+    border: 2px solid #706FD3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #706FD3;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+
+  }
+
+  .header1 a:hover {
+    background-color: #706FD3;
+    color: white;
+  }
+
+
+body{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin:0;
+  padding:0;
+}
+
+main{
+  margin: 10px;
+  margin-top: 140px;
+  margin-bottom: 50px;
+}
+
+div{
+  margin: 0;
+  font-size: 16px;
+  color: #424242;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 22px;
+  /* padding: 15px; */
+  color: #706FD3;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #89898B;
+  text-align: center;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: #89898B;
+  text-align: center;
+}
+
+
+
+
+.profileInfo{
+  border-radius: 25px;
+  border: 2px solid  #89898B;
+  padding: 0px 16px;
+  }
+
+  label{
+    background-color: white;
+    text-align: left;
+    font-size: 16px;
+    margin: 0 10%;
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+    color: #424242;
+  }
+  
+  input{
+    background-color: white;
+    border: 2px solid #89898B;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 10%;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    border-radius: 10px;
+    color:#424242;
+  }
+
+  
+.profileInfo select{
+  background-color: white;
+  border: 2px solid #89898B;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 10%;
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  border-radius: 10px;
+  color:#424242;
+
+}
+
+.profileInfo textarea{
+  background-color: white;
+  border: 2px solid #89898B;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0 10%;
+  width: 80%;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  border-radius: 10px;
+  color:#424242;
+}
+
+/* .multipleSelect{
+  padding: 0px 16px;
+} */
+
+.multipleSelect{
+  margin-top:32px;
+  border-radius: 0;
+  height: 100px;
+}
+
+
+.submit{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+  }
+  
+   .submit:hover{
+    background-color: #706FD3;
+    color: white;
+  }
+  .submit > a{
+    font: 'Roboto';
+  }
+  
+
+
+
+footer{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+
+}
+.botnav {
+  width: 100%;
+  background-color: #706FD3;
+  overflow: auto;
+  height: 50px;
+}
+
+.botnav a {
+  float: left;
+  display: inline;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  width: 20%;
+  text-align: center;
+}
+
+.botnav a:hover {
+  background-color: white;
+  color: #706FD3;
+}

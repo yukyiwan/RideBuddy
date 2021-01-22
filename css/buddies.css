@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+header{
+    position: fixed;
+    padding: 0;
+    left:0;
+    width:100%;
+    margin:0;
+    top:0;
+    left:0;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    background-color: white;
+  }
+  
+    .header1{
+      position: inline-block;
+      text-decoration: none;
+  
+      padding: 10px 12px;
+      height: 100px;
+      /* width: 100vw; */
+      /* height: 134px; */
+      margin: auto;
+      /* overflow: auto; */
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  
+    .img{
+      margin: 0;
+    }
+  
+    .status{
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  
+    .note{
+      position: absolute;
+      margin-top: 10px;
+      float: right;
+    }
+  
+    header a {
+      float: right;
+      display: inline-block;
+      border: 2px solid #706FD3;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      color: #706FD3;
+      margin-top: 25px;
+      border-radius: 10px;
+      font-size: 16px;
+      width: 70px;
+      text-align: center;
+  
+   }
+  
+   header a:hover {
+      background-color: #706FD3;
+      color: white;
+    }
+  
+  /* ~~~~~~~~~~~~~~~~~ */
+
+body{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin:0;
+  padding:0;
+}
+
+main{
+  padding-top: 120px;
+  padding-bottom:50px;}
+
+div{
+  margin: 0;
+  font-size: 16px;
+  color: #424242;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    padding-top: 50px;
+    color: #706FD3;
+    text-align: center;
+  }
+
+h2{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #89898B;
+  text-align: center;
+}
+
+p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: #89898B;
+  text-align: center;
+}
+
+
+.chat a {
+    display: inline-block;
+    border: 2px solid #706FD3;
+    color: #706FD3;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+
+ }
+
+ .chat a:hover {
+    background-color: #706FD3;
+    color: white;

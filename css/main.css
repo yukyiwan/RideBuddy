@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+/* @media (max-width: 768px){ */
+
+body{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+}
+
+p{
+  font-size: 16px;
+  color: #89898B;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 22px;
+  color: #706FD3;
+}
+
+h2{
+color:#424242;
+}
+
+label{
+color: #89898B;
+}
+
+input{
+color: #424242;
+}
+
+#logimg{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+}
+
+.logo{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 150px;
+  /* margin-bottom: 50px; */
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#center {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   margin-bottom: 20px;
+}
+
+.logreg{
+  width: 50%;
+  margin: auto;
+  background-color: white;
+  border: 2px solid #706FD3;
+  text-align: center;
+  font-size: 16px;
+  padding: 16px;
+  display: block;
+  height: 20px;
+  color: #706FD3;
+  cursor: pointer;
+
+  transition-duration: 0.4s;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+
+.logreg:hover{
+  background-color: #706FD3;
+  color: white;
+}
+
+.logreg > a{
+  font: 'Roboto';
+}
+/* } */

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');    
+
+html{
+    margin: 0;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  main{
+    padding-top: 150px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.head{
+    position: fixed;
+    margin: 0px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .navv{
+    position: inline-block;
+    width: 100vw;
+    height: 134px;
+  }
+
+  .img{
+    margin: 0;
+  }
+
+  .status{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .note{
+    position: absolute;
+    margin-top: 10px;
+    float: right;
+  }
+
+  .link{
+    position: sticky;
+    margin-top: 40px;
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  /* offline css */
+
+  /* navigation bar */
+  #body-content-wrapper.offline nav.dynamic-theme {
+    background-color: #4586A3;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* add and accept button */
+  #body-content-wrapper.offline input.dynamic-theme {
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4586A3;
+    border: 1px solid #4586A3;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 70px;
+  }
+
+  /* chat button */
+  #body-content-wrapper.offline a.dynamic-theme {
+    background-color: #4586A3;
+    border: 1px solid #4586A3;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  /* remove button */
+  #body-content-wrapper.offline .btn-remove {
+    background: white;
+    border: 2px solid #4586A3;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #4586A3;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+  }
+  #body-content-wrapper.offline .btn-remove:hover {
+    background-color: #4586A3;
+    color: white;
+    transition-duration: 0.4s;
+  }
+
+  /* logout Button */
+  #body-content-wrapper.offline .dynamic-header {
+    float: right;
+    /* display: inline; */
+    border: 2px solid #FFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* color: #706FD3; */
+    color: #FFF !important;
+    margin-top: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+  }
+  #body-content-wrapper.offline .dynamic-header:hover {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #4586A3 !important;
+    transition-duration: 0.4s;
+  }
+
+
+  /* available css */
+
+  /* navigation bar */
+  #body-content-wrapper.available nav.dynamic-theme {
+    background-color: #F4C044;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  /* chat button */
+  #body-content-wrapper.available a.dynamic-theme {    
+    background-color: #F4C044;
+    border: 1px solid #F4C044;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  /* add and accept button */
+  #body-content-wrapper.available input.dynamic-theme {    
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F4C044;
+    border: 1px solid #F4C044;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    width: 70px;
+  }
+
+  /* remove button */
+  #body-content-wrapper.available .btn-remove {
+    background: white;
+    border: 2px solid #F4C044;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #F4C044;
+    margin-top: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+  }
+  #body-content-wrapper.available .btn-remove:hover {
+    background-color: #F4C044;
+    color: white;
+    transition-duration: 0.4s;  
+  }
+
+  /* header */
+  #body-content-wrapper.available .dynamic-header {
+    float: right;
+    /* display: inline; */
+    border: 2px solid #FFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* color: #706FD3; */
+    color: #FFF !important;
+    margin-top: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 70px;
+    text-align: center;
+  }
+  #body-content-wrapper.available .dynamic-header:hover {
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #F4C044 !important;
+    transition-duration: 0.4s;
+  }
